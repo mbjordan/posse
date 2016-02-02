@@ -1,0 +1,27 @@
+{
+  "name": "posse",
+  "version": "0.1.0",
+  "description": "a clustering plugin for hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbjordan/posse.git"
+  },
+  "keywords": [
+    "cluster",
+    "hapi",
+    "thread"
+  ],
+  "author": "Matt Jordan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mbjordan/posse/issues"
+  },
+  "homepage": "https://github.com/mbjordan/posse#readme",
+  "dependencies": {
+    "ramda": "0.19.1"
+  }
+}
