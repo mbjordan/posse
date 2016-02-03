@@ -4,7 +4,7 @@
   "description": "a clustering plugin for hapi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/lab -c"
   },
   "repository": {
     "type": "git",
@@ -25,9 +25,9 @@
     "ramda": "0.19.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-jasmine": "^2.2.1",
-    "hapi": "^13.0.0",
-    "jasmine-reporters": "^2.1.1"
+    "code": "2.1.0",
+    "hapi": "13.0.0",
+    "lab": "8.2.0",
+    "rewire": "^2.5.1"
   }
 }
