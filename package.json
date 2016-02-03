@@ -23,5 +23,11 @@
   "homepage": "https://github.com/mbjordan/posse#readme",
   "dependencies": {
     "ramda": "0.19.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.2.1",
+    "hapi": "^13.0.0",
+    "jasmine-reporters": "^2.1.1"
   }
 }
