@@ -30,16 +30,18 @@ describe('Posse Integration', () => {
         });
     });
 
-    it('Should have `isWorker` set to false', (done) => {
-        server.register(posse, (err) => {
-            expect(server.plugins.posse.isWorker).to.equal(false);
-            done();
-        });
-    });
+    // it('Should have `isWorker` set to false', (done) => {
+    //     server.register(posse, (err) => {
+    //         expect(server.plugins.posse.isWorker).to.equal(false);
+    //         done();
+    //     });
+    // });
 
     it('Should have `isMaster` set to true', (done) => {
         server.register(posse, (err) => {
-            expect(server.plugins.posse.isMaster).to.equal(true);
+            server.plugins.posse.ifMaster(() => {
+                expect(true).to.equal(false);
+            });
             done();
         });
     });

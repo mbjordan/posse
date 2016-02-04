@@ -1,6 +1,6 @@
 {
   "name": "posse",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "a clustering plugin for hapi",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
     "code": "2.1.0",
     "hapi": "13.0.0",
     "lab": "8.2.0",
-    "rewire": "^2.5.1"
+    "rewire": "2.5.1"
   }
 }
