@@ -24,7 +24,7 @@ server.register(require('posse'), (err) => {
 /* ... */
 ```
 
-### api
+### API
 
 posse reveals two control methods, both of which are available via `server.plugins.posse.{method}`:
 
