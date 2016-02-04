@@ -34,10 +34,14 @@ posse reveals two control methods, both of which are available via `server.plugi
 
 If the current instance is the master, `callbackFn` will be called. This will only occur once.
 
+---
+
 ```javascript
 .ifWorker(callbackFn)
 ```
 
 If the current instance is a worker, `callbackFn` will be called.
+
+---
 
 MIT License... hapi forking!
