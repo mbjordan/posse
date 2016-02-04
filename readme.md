@@ -40,4 +40,4 @@ If the current instance is the master, `callbackFn` will be called. This will on
 
 If the current instance is a worker, `callbackFn` will be called.
 
-License MIT... hapi forking!
+MIT License... hapi forking!
