@@ -20,8 +20,6 @@ server.register(require('posse'), (err) => {
         server.start(/* ... */);
     });
 });
-
-/* ... */
 ```
 
 ### API
